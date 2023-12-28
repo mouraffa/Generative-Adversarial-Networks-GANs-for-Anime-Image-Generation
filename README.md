@@ -26,7 +26,7 @@ Watch the full training video to observe the dynamic evolution of generated anim
 
 ### Epoch Results
 1. Epoch 1 - Initial Noise
-   ![Epoch 1](images/new_gans_training_epoch_0.jpg)
+   ![Epoch 1](images/gans_training_epoch_0.jpg.jpg)
   
 2. Epoch 5 - Early Faces with Errors
    ![Epoch 5](images/new_gans_training_epoch_5.jpg)
