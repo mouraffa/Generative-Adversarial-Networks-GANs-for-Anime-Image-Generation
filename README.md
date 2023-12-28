@@ -1,7 +1,7 @@
 # AnimeGAN: Artistic Image Synthesis with Generative Adversarial Networks
 
 <p align="center">
-  <img src="path_to_gan_architecture_image.jpg" alt="GAN Architecture" width="600"/>
+  <img src="GANs_architecter.png" alt="GAN Architecture" width="600"/>
 </p>
 
 ---
@@ -26,13 +26,13 @@ Watch the full training video to observe the dynamic evolution of generated anim
 
 ### Epoch Results
 1. Epoch 1 - Initial Noise
-   ![Epoch 1](new_gans_training_epoch_0.jpg)
+   ![Epoch 1](images/new_gans_training_epoch_0.jpg)
   
 2. Epoch 5 - Early Faces with Errors
-   ![Epoch 5](new_gans_training_epoch_5.jpg)
+   ![Epoch 5](images/new_gans_training_epoch_5.jpg)
 
 3. Epoch 100 - High-Quality Anime Faces
-   ![Epoch 100](new_gans_training_epoch_100.jpg)
+   ![Epoch 100](images/new_gans_training_epoch_100.jpg)
 
 ---
 
