@@ -6,40 +6,55 @@
 
 ---
 
-## Overview
+## Overview 🚀
 
-AnimeGAN is an exciting project that explores the world of Generative Adversarial Networks (GANs) for the generation of captivating anime-style images. This repository contains the code, dataset, and results of the training process, showcasing the evolution of image synthesis over multiple epochs.
+In this project, I created a Generative Adversarial Networks (GANs) model for artistic image synthesis using PyTorch. The model consists of a generator and discriminator trained on the [Anime Face Dataset](https://github.com/bchao1/Anime-Face-Dataset) from either [GitHub](https://github.com/bchao1/Anime-Face-Dataset) or [Kaggle](https://www.kaggle.com/datasets/splcher/animefacedataset). The training involved 100 epochs, and the progress is visualized in a video showcasing generated images for each epoch.
 
-**Project Highlights:**
-- **GAN Architecture:** Discover the intricacies of the Generative Adversarial Network architecture tailored for anime image synthesis.
-- **Training Process:** Follow the step-by-step process of training the GAN model on the Anime Face Dataset.
-- **Results:** Witness the progression of image generation from noise to realistic anime faces over epochs.
+## Table of Contents 📑
 
----
+- [Project Title](#project-title)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Demo](#demo)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-## Results Showcase
+## Demo 🎥
 
-### Video: Evolution of Anime Image Synthesis
-[![AnimeGAN Training Video](images/new_gans_training_epoch_100.jpg)](gans_training100.avi)
+[Watch the video](gans_training100.avi) showcasing generated images for each epoch (from 1 to 100).
 
-Watch the full training video to observe the dynamic evolution of generated anime images over each epoch.
-
-### Epoch Results
+Images:
 1. Epoch 1 - Initial Noise
    ![Epoch 1](images/gans_training_epoch_0.jpg)
-  
+
 2. Epoch 5 - Early Faces with Errors
    ![Epoch 5](images/new_gans_training_epoch_5.jpg)
 
 3. Epoch 100 - High-Quality Anime Faces
    ![Epoch 100](images/new_gans_training_epoch_100.jpg)
 
----
+## Dependencies 🛠️
 
-## Getting Started
 
-### Prerequisites
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoSize=2)](#)   [![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&logoSize=2)](#)   [![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&logoSize=2)](#)   [![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white&logoSize=2)](#)   [![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white&logoSize=2)](#)   [![Pillow](https://img.shields.io/badge/-Pillow-8CAAE6?style=for-the-badge&logo=python&logoColor=white&logoSize=2)](#)
 
-- [![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoSize=2)](#)   [![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&logoSize=2)](#)   [![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white&logoSize=2)](#)
-- ...
 
+
+## Installation 💻
+
+```bash
+# Install dependencies
+pip install python PyTorch opendatasets numpy matplotlib Pillow opencv-python
+```
+
+## Usage 🚀
+
+To use and train the model:
+
+1. Open the notebook in [Google Colab]([https://colab.research.google.com/your-notebook](https://colab.research.google.com/github/mouraffa/Generative-Adversarial-Networks-GANs-for-Anime-Image-Generation/blob/main/Generative_Adversarial_Networks_(GANs)_for_Anime_Image_Generation.ipynb)).
+2. Change the runtime to GPU for faster training.
+3. Modify the number of epochs in the notebook according to your preference.
+4. Run the notebook.
+
+For local machine usage, configure GPUs following the instructions in the first cell of the notebook.
