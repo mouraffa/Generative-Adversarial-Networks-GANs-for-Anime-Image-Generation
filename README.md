@@ -12,8 +12,7 @@ In this project, I created a Generative Adversarial Networks (GANs) model for ar
 
 ## Table of Contents 📑
 
-- [Project Title](#project-title)
-- [Overview](#overview)
+- [Overview](##overview)
 - [Table of Contents](#table-of-contents)
 - [Demo](#demo)
 - [Dependencies](#dependencies)
