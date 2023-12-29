@@ -22,16 +22,23 @@ In this project, I created a Generative Adversarial Networks (GANs) model for ar
 
 ## Demo 🎥
 
-[Watch the video](gans_training100.avi) showcasing generated images for each epoch (from 1 to 100).
+![Generated Images](gans_training100.gif)
+
+
+
+> Showcasing generated images for each epoch (from 1 to 100).
 
 Images:
 1. Epoch 1 - Initial Noise
+   
    ![Epoch 1](images/gans_training_epoch_0.jpg)
 
-2. Epoch 5 - Early Faces with Errors
+3. Epoch 5 - Early Faces with Errors
+   
    ![Epoch 5](images/new_gans_training_epoch_5.jpg)
 
-3. Epoch 100 - High-Quality Anime Faces
+5. Epoch 100 - High-Quality Anime Faces
+   
    ![Epoch 100](images/new_gans_training_epoch_100.jpg)
 
 ## Dependencies 🛠️
